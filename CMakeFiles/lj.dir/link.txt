@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/liblj.a  CMakeFiles/lj.dir/src/common.cpp.o CMakeFiles/lj.dir/src/linkedlist.cpp.o CMakeFiles/lj.dir/src/nbody_bin_io.cpp.o CMakeFiles/lj.dir/src/nbody_txt_io.cpp.o CMakeFiles/lj.dir/src/params.cpp.o
+/usr/bin/ranlib lib/liblj.a

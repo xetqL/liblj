@@ -1,0 +1,7 @@
+/home/xetql/Dropbox/projects/cpp/nbody/liblj/CMakeFiles/install/strip.dir
+/home/xetql/Dropbox/projects/cpp/nbody/liblj/CMakeFiles/install/local.dir
+/home/xetql/Dropbox/projects/cpp/nbody/liblj/CMakeFiles/install.dir
+/home/xetql/Dropbox/projects/cpp/nbody/liblj/CMakeFiles/list_install_components.dir
+/home/xetql/Dropbox/projects/cpp/nbody/liblj/CMakeFiles/rebuild_cache.dir
+/home/xetql/Dropbox/projects/cpp/nbody/liblj/CMakeFiles/edit_cache.dir
+/home/xetql/Dropbox/projects/cpp/nbody/liblj/CMakeFiles/lj.dir

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="liblj"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/xetql/Dropbox/projects/cpp/nbody/liblj"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/xetql/Dropbox/projects/cpp/nbody/liblj"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/xetql/Dropbox/projects/cpp/nbody/liblj"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/xetql/Dropbox/projects/cpp/nbody/liblj"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/xetql/Dropbox/projects/cpp/nbody/liblj"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/xetql/Dropbox/projects/cpp/nbody/liblj"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/xetql/Dropbox/projects/cpp/nbody/liblj"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lj">
+				<Option output="/home/xetql/Dropbox/projects/cpp/nbody/liblj/lib/liblj.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xetql/Dropbox/projects/cpp/nbody/liblj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xetql/Dropbox/projects/cpp/nbody/liblj/includes"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 lj"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lj/fast">
+				<Option output="/home/xetql/Dropbox/projects/cpp/nbody/liblj/lib/liblj.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xetql/Dropbox/projects/cpp/nbody/liblj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xetql/Dropbox/projects/cpp/nbody/liblj/includes"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 lj/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/xetql/Dropbox/projects/cpp/nbody/liblj/Makefile">
+			<Option target="lj"/>
+		</Unit>
+		<Unit filename="/home/xetql/Dropbox/projects/cpp/nbody/liblj/src/common.cpp">
+			<Option target="lj"/>
+		</Unit>
+		<Unit filename="/home/xetql/Dropbox/projects/cpp/nbody/liblj/src/linkedlist.cpp">
+			<Option target="lj"/>
+		</Unit>
+		<Unit filename="/home/xetql/Dropbox/projects/cpp/nbody/liblj/src/nbody_bin_io.cpp">
+			<Option target="lj"/>
+		</Unit>
+		<Unit filename="/home/xetql/Dropbox/projects/cpp/nbody/liblj/src/nbody_txt_io.cpp">
+			<Option target="lj"/>
+		</Unit>
+		<Unit filename="/home/xetql/Dropbox/projects/cpp/nbody/liblj/src/params.cpp">
+			<Option target="lj"/>
+		</Unit>
+		<Unit filename="/home/xetql/Dropbox/projects/cpp/nbody/liblj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

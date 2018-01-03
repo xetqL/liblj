@@ -1,0 +1,11 @@
+/usr/lib/liblj/liblj.a
+/usr/include/liblj/atomic_cells.hpp
+/usr/include/liblj/common.hpp
+/usr/include/liblj/kdtree.hpp
+/usr/include/liblj/linkedlist.hpp
+/usr/include/liblj/ljsim.hpp
+/usr/include/liblj/matrix.hpp
+/usr/include/liblj/nbody_io.hpp
+/usr/include/liblj/neighborhood.hpp
+/usr/include/liblj/params.hpp
+/usr/include/liblj/space.hpp

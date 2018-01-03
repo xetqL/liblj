@@ -1,0 +1,37 @@
+cmake_minimum_required(VERSION 3.9)
+project(liblj CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_COMPILER g++)
+
+set(CMAKE_BUILD_TYPE "Release")
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -Wall -pedantic")
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set(EXECUTABLE_SOURCE_DIRECTORY ${CMAKE_SOURCE_DIR}/src)
+set(TEST_SOURCE_DIRECTORY ${CMAKE_SOURCE_DIR}/tests)
+set(INCLUDE_DIRECTORY ${CMAKE_SOURCE_DIR}/includes)
+
+set(LIBRARY_INSTALL_DIRECTORY /usr/lib/liblj)
+set(INCLUDES_INSTALL_DIRECTORY /usr/include/liblj)
+
+include_directories(${CMAKE_SOURCE_DIR}/includes)
+
+FILE(GLOB inFiles RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}"
+        "${CMAKE_CURRENT_SOURCE_DIR}/includes/*.hpp")
+
+add_library(lj STATIC
+        Makefile
+        ${EXECUTABLE_SOURCE_DIRECTORY}/common.cpp
+        ${EXECUTABLE_SOURCE_DIRECTORY}/linkedlist.cpp
+        ${EXECUTABLE_SOURCE_DIRECTORY}/nbody_bin_io.cpp
+        ${EXECUTABLE_SOURCE_DIRECTORY}/nbody_txt_io.cpp
+        ${EXECUTABLE_SOURCE_DIRECTORY}/params.cpp)
+
+set_target_properties(lj PROPERTIES PUBLIC_HEADER "${inFiles}")
+
+install(TARGETS lj
+        ARCHIVE DESTINATION ${LIBRARY_INSTALL_DIRECTORY}
+        PUBLIC_HEADER DESTINATION ${INCLUDES_INSTALL_DIRECTORY})

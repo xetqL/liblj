@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g   CMakeFiles/liblj.dir/common.cpp.o CMakeFiles/liblj.dir/linkedlist.cpp.o CMakeFiles/liblj.dir/nbody_bin_io.cpp.o CMakeFiles/liblj.dir/nbody_txt_io.cpp.o CMakeFiles/liblj.dir/params.cpp.o  -o liblj 

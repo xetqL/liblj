@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>3</activeConfTypeElem>
+        <activeConfIndexElem>1</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/xetql/Dropbox/projects/cpp/nbody/liblj/linkedlist.hpp</file>
+            <file>file:/home/xetql/Dropbox/projects/cpp/nbody/liblj/params.cpp</file>
+            <file>file:/home/xetql/Dropbox/projects/cpp/nbody/liblj/space.hpp</file>
+            <file>file:/home/xetql/Dropbox/projects/cpp/nbody/liblj/atomic_cells.hpp</file>
+            <file>file:/home/xetql/Dropbox/projects/cpp/nbody/liblj/matrix.hpp</file>
+            <file>file:/home/xetql/Dropbox/projects/cpp/nbody/liblj/params.hpp</file>
+            <file>file:/home/xetql/Dropbox/projects/cpp/nbody/liblj/linkedlist.cpp</file>
+            <file>file:/home/xetql/Dropbox/projects/cpp/nbody/liblj/kdtree.hpp</file>
+            <file>file:/home/xetql/Dropbox/projects/cpp/nbody/liblj/ljsim.hpp</file>
+            <file>file:/home/xetql/Dropbox/projects/cpp/nbody/liblj/neighborhood.hpp</file>
+            <file>file:/home/xetql/Dropbox/projects/cpp/nbody/liblj/common.cpp</file>
+            <file>file:/home/xetql/Dropbox/projects/cpp/nbody/liblj/nbody_io.hpp</file>
+        </group>
+    </open-files>
+</project-private>
